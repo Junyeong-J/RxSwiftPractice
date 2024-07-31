@@ -21,6 +21,7 @@
 		727E3DAF2C591C220095E1D3 /* UISwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727E3DAE2C591C220095E1D3 /* UISwitchViewController.swift */; };
 		727E3DB12C591D480095E1D3 /* UITextFieldAndUIButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727E3DB02C591D480095E1D3 /* UITextFieldAndUIButtonViewController.swift */; };
 		727E3DB62C5A54210095E1D3 /* AddingNumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727E3DB52C5A54210095E1D3 /* AddingNumbersViewController.swift */; };
+		727E3DB82C5A58250095E1D3 /* SimpleValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727E3DB72C5A58250095E1D3 /* SimpleValidationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		727E3DAE2C591C220095E1D3 /* UISwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitchViewController.swift; sourceTree = "<group>"; };
 		727E3DB02C591D480095E1D3 /* UITextFieldAndUIButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldAndUIButtonViewController.swift; sourceTree = "<group>"; };
 		727E3DB52C5A54210095E1D3 /* AddingNumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingNumbersViewController.swift; sourceTree = "<group>"; };
+		727E3DB72C5A58250095E1D3 /* SimpleValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleValidationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				727E3DAE2C591C220095E1D3 /* UISwitchViewController.swift */,
 				727E3DB02C591D480095E1D3 /* UITextFieldAndUIButtonViewController.swift */,
 				727E3DB52C5A54210095E1D3 /* AddingNumbersViewController.swift */,
+				727E3DB72C5A58250095E1D3 /* SimpleValidationViewController.swift */,
 			);
 			path = RxSwiftProject;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			files = (
 				727E3DAC2C58D3E10095E1D3 /* PickerViewController.swift in Sources */,
 				727E3D922C58CC890095E1D3 /* ViewController.swift in Sources */,
+				727E3DB82C5A58250095E1D3 /* SimpleValidationViewController.swift in Sources */,
 				727E3DB62C5A54210095E1D3 /* AddingNumbersViewController.swift in Sources */,
 				727E3D8E2C58CC890095E1D3 /* AppDelegate.swift in Sources */,
 				727E3D902C58CC890095E1D3 /* SceneDelegate.swift in Sources */,
