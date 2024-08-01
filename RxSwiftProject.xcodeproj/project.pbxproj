@@ -23,6 +23,9 @@
 		727E3DB62C5A54210095E1D3 /* AddingNumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727E3DB52C5A54210095E1D3 /* AddingNumbersViewController.swift */; };
 		727E3DB82C5A58250095E1D3 /* SimpleValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727E3DB72C5A58250095E1D3 /* SimpleValidationViewController.swift */; };
 		727E3DBA2C5A7AB10095E1D3 /* SimpleTableViewExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727E3DB92C5A7AB10095E1D3 /* SimpleTableViewExampleViewController.swift */; };
+		727E3DBC2C5BCD180095E1D3 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727E3DBB2C5BCD180095E1D3 /* PasswordViewController.swift */; };
+		727E3DBF2C5BCD590095E1D3 /* SignTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727E3DBE2C5BCD590095E1D3 /* SignTextField.swift */; };
+		727E3DC12C5BCD840095E1D3 /* PointButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727E3DC02C5BCD840095E1D3 /* PointButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +44,9 @@
 		727E3DB52C5A54210095E1D3 /* AddingNumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingNumbersViewController.swift; sourceTree = "<group>"; };
 		727E3DB72C5A58250095E1D3 /* SimpleValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleValidationViewController.swift; sourceTree = "<group>"; };
 		727E3DB92C5A7AB10095E1D3 /* SimpleTableViewExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewExampleViewController.swift; sourceTree = "<group>"; };
+		727E3DBB2C5BCD180095E1D3 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		727E3DBE2C5BCD590095E1D3 /* SignTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignTextField.swift; sourceTree = "<group>"; };
+		727E3DC02C5BCD840095E1D3 /* PointButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,7 @@
 		727E3D8C2C58CC890095E1D3 /* RxSwiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				727E3DBD2C5BCD430095E1D3 /* CustomView */,
 				727E3D8D2C58CC890095E1D3 /* AppDelegate.swift */,
 				727E3D8F2C58CC890095E1D3 /* SceneDelegate.swift */,
 				727E3D912C58CC890095E1D3 /* ViewController.swift */,
@@ -90,8 +97,18 @@
 				727E3DB52C5A54210095E1D3 /* AddingNumbersViewController.swift */,
 				727E3DB72C5A58250095E1D3 /* SimpleValidationViewController.swift */,
 				727E3DB92C5A7AB10095E1D3 /* SimpleTableViewExampleViewController.swift */,
+				727E3DBB2C5BCD180095E1D3 /* PasswordViewController.swift */,
 			);
 			path = RxSwiftProject;
+			sourceTree = "<group>";
+		};
+		727E3DBD2C5BCD430095E1D3 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				727E3DBE2C5BCD590095E1D3 /* SignTextField.swift */,
+				727E3DC02C5BCD840095E1D3 /* PointButton.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +194,8 @@
 				727E3DAC2C58D3E10095E1D3 /* PickerViewController.swift in Sources */,
 				727E3D922C58CC890095E1D3 /* ViewController.swift in Sources */,
 				727E3DB82C5A58250095E1D3 /* SimpleValidationViewController.swift in Sources */,
+				727E3DBC2C5BCD180095E1D3 /* PasswordViewController.swift in Sources */,
+				727E3DBF2C5BCD590095E1D3 /* SignTextField.swift in Sources */,
 				727E3DB62C5A54210095E1D3 /* AddingNumbersViewController.swift in Sources */,
 				727E3D8E2C58CC890095E1D3 /* AppDelegate.swift in Sources */,
 				727E3D902C58CC890095E1D3 /* SceneDelegate.swift in Sources */,
@@ -184,6 +203,7 @@
 				727E3DAA2C58CD8B0095E1D3 /* TableViewController.swift in Sources */,
 				727E3DB12C591D480095E1D3 /* UITextFieldAndUIButtonViewController.swift in Sources */,
 				727E3DBA2C5A7AB10095E1D3 /* SimpleTableViewExampleViewController.swift in Sources */,
+				727E3DC12C5BCD840095E1D3 /* PointButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
