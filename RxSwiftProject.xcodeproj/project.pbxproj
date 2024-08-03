@@ -26,6 +26,7 @@
 		727E3DBC2C5BCD180095E1D3 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727E3DBB2C5BCD180095E1D3 /* PasswordViewController.swift */; };
 		727E3DBF2C5BCD590095E1D3 /* SignTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727E3DBE2C5BCD590095E1D3 /* SignTextField.swift */; };
 		727E3DC12C5BCD840095E1D3 /* PointButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727E3DC02C5BCD840095E1D3 /* PointButton.swift */; };
+		727E3DC52C5E59010095E1D3 /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727E3DC42C5E59010095E1D3 /* PhoneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		727E3DBB2C5BCD180095E1D3 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
 		727E3DBE2C5BCD590095E1D3 /* SignTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignTextField.swift; sourceTree = "<group>"; };
 		727E3DC02C5BCD840095E1D3 /* PointButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointButton.swift; sourceTree = "<group>"; };
+		727E3DC42C5E59010095E1D3 /* PhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,8 @@
 		727E3D8C2C58CC890095E1D3 /* RxSwiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				727E3DC32C5E58490095E1D3 /* Practice */,
+				727E3DC22C5E58290095E1D3 /* ViewController */,
 				727E3DBD2C5BCD430095E1D3 /* CustomView */,
 				727E3D8D2C58CC890095E1D3 /* AppDelegate.swift */,
 				727E3D8F2C58CC890095E1D3 /* SceneDelegate.swift */,
@@ -90,14 +94,6 @@
 				727E3D962C58CC8A0095E1D3 /* Assets.xcassets */,
 				727E3D982C58CC8A0095E1D3 /* LaunchScreen.storyboard */,
 				727E3D9B2C58CC8A0095E1D3 /* Info.plist */,
-				727E3DAB2C58D3E10095E1D3 /* PickerViewController.swift */,
-				727E3DA92C58CD8B0095E1D3 /* TableViewController.swift */,
-				727E3DAE2C591C220095E1D3 /* UISwitchViewController.swift */,
-				727E3DB02C591D480095E1D3 /* UITextFieldAndUIButtonViewController.swift */,
-				727E3DB52C5A54210095E1D3 /* AddingNumbersViewController.swift */,
-				727E3DB72C5A58250095E1D3 /* SimpleValidationViewController.swift */,
-				727E3DB92C5A7AB10095E1D3 /* SimpleTableViewExampleViewController.swift */,
-				727E3DBB2C5BCD180095E1D3 /* PasswordViewController.swift */,
 			);
 			path = RxSwiftProject;
 			sourceTree = "<group>";
@@ -109,6 +105,29 @@
 				727E3DC02C5BCD840095E1D3 /* PointButton.swift */,
 			);
 			path = CustomView;
+			sourceTree = "<group>";
+		};
+		727E3DC22C5E58290095E1D3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				727E3DAB2C58D3E10095E1D3 /* PickerViewController.swift */,
+				727E3DA92C58CD8B0095E1D3 /* TableViewController.swift */,
+				727E3DAE2C591C220095E1D3 /* UISwitchViewController.swift */,
+				727E3DB02C591D480095E1D3 /* UITextFieldAndUIButtonViewController.swift */,
+				727E3DB52C5A54210095E1D3 /* AddingNumbersViewController.swift */,
+				727E3DB72C5A58250095E1D3 /* SimpleValidationViewController.swift */,
+				727E3DB92C5A7AB10095E1D3 /* SimpleTableViewExampleViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		727E3DC32C5E58490095E1D3 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				727E3DBB2C5BCD180095E1D3 /* PasswordViewController.swift */,
+				727E3DC42C5E59010095E1D3 /* PhoneViewController.swift */,
+			);
+			path = Practice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +223,7 @@
 				727E3DB12C591D480095E1D3 /* UITextFieldAndUIButtonViewController.swift in Sources */,
 				727E3DBA2C5A7AB10095E1D3 /* SimpleTableViewExampleViewController.swift in Sources */,
 				727E3DC12C5BCD840095E1D3 /* PointButton.swift in Sources */,
+				727E3DC52C5E59010095E1D3 /* PhoneViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
