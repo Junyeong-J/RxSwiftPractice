@@ -27,6 +27,7 @@
 		727E3DBF2C5BCD590095E1D3 /* SignTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727E3DBE2C5BCD590095E1D3 /* SignTextField.swift */; };
 		727E3DC12C5BCD840095E1D3 /* PointButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727E3DC02C5BCD840095E1D3 /* PointButton.swift */; };
 		727E3DC52C5E59010095E1D3 /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727E3DC42C5E59010095E1D3 /* PhoneViewController.swift */; };
+		727E3DC82C5E69EB0095E1D3 /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727E3DC72C5E69EB0095E1D3 /* BirthdayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		727E3DBE2C5BCD590095E1D3 /* SignTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignTextField.swift; sourceTree = "<group>"; };
 		727E3DC02C5BCD840095E1D3 /* PointButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointButton.swift; sourceTree = "<group>"; };
 		727E3DC42C5E59010095E1D3 /* PhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
+		727E3DC72C5E69EB0095E1D3 /* BirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			children = (
 				727E3DBB2C5BCD180095E1D3 /* PasswordViewController.swift */,
 				727E3DC42C5E59010095E1D3 /* PhoneViewController.swift */,
+				727E3DC72C5E69EB0095E1D3 /* BirthdayViewController.swift */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				727E3DB82C5A58250095E1D3 /* SimpleValidationViewController.swift in Sources */,
 				727E3DBC2C5BCD180095E1D3 /* PasswordViewController.swift in Sources */,
 				727E3DBF2C5BCD590095E1D3 /* SignTextField.swift in Sources */,
+				727E3DC82C5E69EB0095E1D3 /* BirthdayViewController.swift in Sources */,
 				727E3DB62C5A54210095E1D3 /* AddingNumbersViewController.swift in Sources */,
 				727E3D8E2C58CC890095E1D3 /* AppDelegate.swift in Sources */,
 				727E3D902C58CC890095E1D3 /* SceneDelegate.swift in Sources */,
