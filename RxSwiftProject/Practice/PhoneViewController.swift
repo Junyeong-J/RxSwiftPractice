@@ -35,8 +35,7 @@ class PhoneViewController: UIViewController {
             .disposed(by: disposeBag)
         
         phoneTextField.rx.text.orEmpty
-            .map { newValue in
-                newValue.filter { char in
+            .map { $0.filter { char in
                     guard Int(String(char)) != nil || String(char) == "" else { return false }
                     return true
                 }
